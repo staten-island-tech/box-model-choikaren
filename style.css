@@ -1,0 +1,43 @@
+.header {
+  height: 65vh;
+  background-color: rgb(255, 230, 0);
+  position: relative;
+}
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  text-align: center;
+}
+
+#flower {
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#title {
+  letter-spacing: 5pt;
+  font-size: 30pt;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(39, 0, 0);
+}
+
+ .header2 {
+  height: 100vh;
+  background-color: rgb(255, 97, 145);
+}
+
+#brown {
+  width: 50%;
+  
+}
