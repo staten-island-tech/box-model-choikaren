@@ -13,7 +13,7 @@
 }
 
 #flower {
-  height: 300px;
+  height: 50vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,7 +27,7 @@
   text-transform: uppercase;
 }
 
-h2 {
+h2{
   text-align: center;
   color: rgb(39, 0, 0);
 }
@@ -35,8 +35,22 @@ h2 {
  .header2 {
   height: 100vh;
   background-color: rgb(255, 97, 145);
+
+}
+
+.pictures {
+  position: absolute;
 }
 
 #brown {
-  width: 50%;
+  position: relative;
+  width: 50vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#meandelaine {
+  position: relative;
+  width: 50vh;
+  left: 50%;
 }
