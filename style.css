@@ -5,12 +5,37 @@ html {
   box-sizing: border-box;
 }
 
+.Top {
+  margin-top: 3rem;
+}
+
+.buttons {
+  text-align: center;
+  background-color:  rgb(255, 97, 145);
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  font-weight: bold ;
+  cursor: pointer;
+  color: rgb(7, 0, 99);
+  /* display: inline-block; */
+}
+
+.btn:hover {
+  background: rgb(255, 230, 0);
+}
+
 .header {
-  height: 45vh;
+  height: 65vh;
   background-color: rgb(255, 230, 0);
   position: relative;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
+
 .header-text {
   position: absolute;
   top: 50%;
@@ -149,4 +174,3 @@ h2 {
   min-width: 25rem;
   object-fit: cover;
 }
-
